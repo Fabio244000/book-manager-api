@@ -15,20 +15,20 @@ Este proyecto es una API de gestión de libros. A continuación se detallan los 
 
 Primero, crea un nuevo directorio llamado `book_manager_reto` y muévete a ese directorio:
 
-'mkdir book_manager_reto'
-'cd book_manager_reto'
+```mkdir book_manager_reto```
+```cd book_manager_reto```
 
 ### 2. 2. Clonar el Proyecto
 
 Clona el repositorio del proyecto desde GitHub:
 
-'git clone https://github.com/Fabio244000/book-manager-api.git'
+```git clone https://github.com/Fabio244000/book-manager-api.git```
 
 ### 3. Moverse al Directorio del Proyecto
 
 Muévete al directorio del proyecto clonado:
 
-'cd book-manager-api'
+```cd book-manager-api```
 
 ### 4. Ejecutar Docker Desktop
 
@@ -38,16 +38,16 @@ Asegúrate de que Docker Desktop esté ejecutándose en tu máquina.
 
 Construye los contenedores Docker para el proyecto:
 
-'docker-compose build'
+```docker-compose build```
 
 ### 6. Levantar el Proyecto
 
 Levanta el proyecto utilizando Docker Compose:
 
-'docker-compose ps'
+```docker-compose up```
 
 Para detener los contenedores, utiliza:
 
-'docker-compose down'
+```docker-compose down```
 
 # ¡Disfruta usando el Book Manager API!
