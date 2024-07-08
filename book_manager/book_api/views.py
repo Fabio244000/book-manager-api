@@ -210,7 +210,7 @@ class AveragePriceView(APIView):
             average_price = BookService.get_average_price_by_year(year)
             return APIResponse(
                 success=True,
-                message=f"Average price for books published in {year}",
+                message=f"Precio promedio de los libros publicados en {year}",
                 data={"average_price": average_price},
                 status=status.HTTP_200_OK,
             )

@@ -14,39 +14,39 @@ class Command(BaseCommand):
 
         books = [
             {
-                "title": "Book Title 1",
-                "author": "Author Name 1",
-                "published_date": datetime(2022, 1, 1),
+                "title": "Fictional Reality",
+                "author": "Alice Johnson",
+                "published_date": "2024-02-10",
                 "genre": "Fiction",
-                "price": float(Decimal("19.99"))
+                "price": 22.99
             },
             {
-                "title": "Book Title 2",
-                "author": "Author Name 2",
-                "published_date": datetime(2022, 2, 2),
-                "genre": "Non-Fiction",
-                "price": float(Decimal("29.99"))
+                "title": "Adventures in the Unknown",
+                "author": "Michael Brown",
+                "published_date": "2023-03-07",
+                "genre": "Adventure",
+                "price": 17.25
             },
             {
-                "title": "Book Title 3",
-                "author": "Author Name 3",
-                "published_date": datetime(2023, 3, 3),
-                "genre": "Science Fiction",
-                "price": float(Decimal("39.99"))
+                "title": "The Fictional Universe",
+                "author": "Emily Davis",
+                "published_date": "2022-11-11",
+                "genre": "Fiction",
+                "price": 20.00
             },
             {
-                "title": "Book Title 4",
-                "author": "Author Name 4",
-                "published_date": datetime(2023, 4, 4),
-                "genre": "Fantasy",
-                "price": float(Decimal("49.99"))
+                "title": "The Enchanted Forest",
+                "author": "George Martin",
+                "published_date": "2022-04-18",
+                "genre": "Adventure",
+                "price": 16.75
             },
             {
-                "title": "Book Title 5",
-                "author": "Author Name 5",
-                "published_date": datetime(2025, 5, 5),
-                "genre": "Mystery",
-                "price": float(Decimal("59.99"))
+                "title": "Whispers of the Past",
+                "author": "Laura Thompson",
+                "published_date": "2022-09-29",
+                "genre": "Fiction",
+                "price": 19.85
             }
         ]
 
