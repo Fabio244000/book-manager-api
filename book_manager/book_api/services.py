@@ -60,7 +60,9 @@ class BookService:
     @staticmethod
     def get_average_price_by_year(year):
         try:
-            return Book.get_average_price_by_year(year)
+            average_price = Book.get_average_price_by_year(year)
+            formatted_price = "{:.2f}".format(average_price)
+            return float(formatted_price)
         except Exception as e:
             logger.error(f"Error getting average price by year: {e}")
             raise
